@@ -18,7 +18,7 @@ Soy estudiante de primer año de la carrera y para este proyecto asumo el rol de
 El trabajo responde a la solicitud de un organismo gubernamental de desarrollo social y tecnología que necesita diagnosticar la brecha digital en el país a partir de la Encuesta Permanente de Hogares (EPH - INDEC). El foco principal es analizar cómo influyen el nivel socioeconómico, la educación y la localización geográfica en el acceso a internet y a computadoras en los hogares.
 
 ### Entregables del proyecto
-* **Limpieza y procesamiento de microdatos:** Construcción de un script en Google Colab para tratar datos nulos, recodificar variables y eliminar inconsistencias de la base original, generando el archivo `df_clean.csv` en la carpeta `/data`.
+* **Limpieza y procesamiento de microdatos:** Construcción de un script en Google Colab para tratar datos nulos, recodificar variables y eliminar inconsistencias de la base original, generando el archivo `eph_tecnologia_microdatos.csv`.
 * **Análisis Exploratorio de Datos (EDA):**
   * Cálculo de medidas de tendencia central (media, mediana) y dispersión (desvío estándar, mínimos y máximos) para las variables numéricas clave.
   * Generación de histogramas y boxplots para estudiar las distribuciones de ingresos y variables demográficas.
