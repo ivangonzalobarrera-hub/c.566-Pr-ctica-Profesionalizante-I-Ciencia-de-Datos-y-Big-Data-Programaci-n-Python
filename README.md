@@ -13,7 +13,7 @@
 
 Soy estudiante de primer año de la carrera y para este proyecto asumo el rol de analista de datos externo. Mi objetivo es aplicar herramientas de análisis cuantitativo en Python para procesar bases de datos públicas oficiales y transformar esos registros en información ordenada y útil para la toma de decisiones. Me enfoco en mantener un flujo de trabajo reproducible, con código documentado y criterios estadísticos transparentes para responder a la problemática planteada.
 
-## Alcance del Servicio
+## Alcance
 
 El trabajo responde a la solicitud de un organismo gubernamental de desarrollo social y tecnología que necesita diagnosticar la brecha digital en el país a partir de la Encuesta Permanente de Hogares (EPH - INDEC). El foco principal es analizar cómo influyen el nivel socioeconómico, la educación y la localización geográfica en el acceso a internet y a computadoras en los hogares.
 
