@@ -12,7 +12,7 @@ La base usa nombres de variables de la EPH. No es el operativo completo del INDE
 
 - `data/eph_tecnologia_microdatos.csv`: base original.
 - `data/df_clean.csv`: la misma base después de la limpieza.
-- `notebooks/analisis_brecha_digital.ipynb`: carga, limpieza, descriptivas, cruces, gráficos y una regresión lineal simple.
+- `notebooks/analisis_brecha_digital.ipynb`: carga, limpieza, descriptivas, cruces, gráficos, una regresión lineal simple y el análisis solo del GBA (sección 8).
 - `figuras/`: los gráficos que guarda el notebook.
 - `informe/Informe_Barrera_Ivan.docx`: informe técnico.
 - `presentacion/Pitch_brecha_digital.pptx`: pitch de 7 diapositivas.
@@ -52,3 +52,21 @@ La brecha fuerte es por educación y por decil de ingreso. En primaria incomplet
 Entre regiones la diferencia es chica, alrededor de 6 puntos en PC. En esta base NOA y NEA no quedan abajo de GBA.
 
 El detalle, los gráficos y las recomendaciones están en el informe.
+
+## Organización del trabajo
+
+Las tareas están en un tablero de GitHub Projects: https://github.com/users/ivangonzalobarrera-hub/projects/1
+
+Estado después del cambio de alcance (solo GBA):
+
+| Por hacer | En proceso | Terminado |
+|---|---|---|
+| | Calcular el EDA bivariado (ingreso vs. PC/internet) | Filtrar códigos de no respuesta y exportar `df_clean.csv` |
+| | Redactar consideraciones éticas y marco teórico en el informe | Crear el repositorio con carpetas `/data` y `/notebooks` |
+| | Armar las 7 diapositivas del pitch de datos | |
+
+### Cambio de plan: solo GBA
+
+**¿Qué tarjeta vuelve a "En proceso"?** La del EDA bivariado, porque sus tablas dependen del recorte geográfico. El informe y el pitch vuelven a "En proceso" porque usan esas cifras.
+
+**¿Cómo adapté el código sin tirar lo anterior?** La limpieza no cambia: `df_clean.csv` sirve para cualquier recorte. Solo se filtra `REGION == 1` antes de calcular las tablas (sección 8 del notebook). La tabla por región deja de aplicar, porque queda una sola región.
